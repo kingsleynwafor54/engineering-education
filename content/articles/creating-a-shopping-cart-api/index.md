@@ -554,8 +554,6 @@ public class CustomerTest {
         cart.removeProductsFromCartByAdmin(1L,product);
         System.out.println(cart);
         assertEquals(2,cart.totalNumberOfItems());
-
-
     }
     @Test
     void checkAllTheProductsInTheCartByCustomer(){
